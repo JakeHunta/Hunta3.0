@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hunta-backend"
+version = "1.0.0"
+description = "Backend for Hunta - FastAPI + Uvicorn"
+authors = ["Hunta Dev Team"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+requests = "*"
+pillow = "*"
+torch = "*"
+torchvision = "*"
+scikit-learn = "*"
+python-dotenv = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
